@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
+export ANDROID_HOME="/Users/elia/Library/Android/sdk"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
