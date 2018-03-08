@@ -6,7 +6,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias home="cd ~" # `cd` is probably faster to type though
-alias --="cd -"
 
 # Shortcuts
 alias d="cd ~/Documents"
@@ -17,6 +16,9 @@ alias g="git"
 alias dban="cd ~/Documents/dban"
 alias map="cd ~/Documents/dban/map"
 alias dotfiles="cd ~/Documents/dotfiles"
+
+# Open Applications
+alias jadx="cd ~/Documents/dban/tools/jadx/build/jadx/ ; bin/jadx-gui lib/jadx-core-*.jar"
 
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
